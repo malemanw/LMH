@@ -1,0 +1,37 @@
+@import "../../../styles.scss";
+@media only screen and (max-width: 650px) {
+    .border-b{
+        border-bottom: #bbbbbb solid 1px; 
+    }
+    .TitlePrograma{
+        top: 3em !important;
+    }
+}
+.servicios img{
+    width: 120px;
+}
+.servicios h5{
+    font-size: 1.4rem;
+}
+.servicios p{
+    text-align: justify;
+}
+.highlight-font{
+    font-family: "Product Sans", arial, sans-serif;
+    margin: 30px 0;
+    font-size: 40px;
+    text-transform: capitalize;
+    color: #525050;
+}
+.hero-description{
+    margin-bottom: 30px;
+    max-width: 600px;
+    border-bottom: #bbbbbb solid 1.5px; 
+}
+.TitlePrograma{
+    margin-top: 25px;
+    color: #fff;
+    position: relative; 
+    margin: 0;
+    top: 6em;
+}
